@@ -1,0 +1,43 @@
+thead {
+    background-color: #427fef;
+    color: #eef7ff;
+    padding: 5px;
+
+    border-collapse: unset;
+
+
+}
+
+table {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #eef7ff;
+}
+
+td {
+    text-align: left;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: left;
+}
+
+tfoot {
+    background-color: #427fef;
+    color: #eef7ff;
+    border-collapse: unset;
+}
+
+#box {
+    width: 300px;
+    height: 300px;
+    border: 1px solid lightgrey;
+    padding: 50px;
+    margin: 20px;
+    background-color: tomato;
+    box-shadow: 17px 17px lightgrey;
+    border-radius: 10px;
+}
+
