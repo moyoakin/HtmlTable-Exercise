@@ -1,13 +1,3 @@
-thead {
-    background-color: #427fef;
-    color: #eef7ff;
-    padding: 5px;
-
-    border-collapse: unset;
-
-
-}
-
 table {
     border-style: solid;
     border-width: 1px;
@@ -24,11 +14,10 @@ td {
     text-align: left;
 }
 
-tfoot {
-    background-color: #427fef;
-    color: #eef7ff;
-    border-collapse: unset;
+tfoot tr,thead tr {
+    background-color: #427fef !important;
 }
+
 
 #box {
     width: 300px;
@@ -39,5 +28,17 @@ tfoot {
     background-color: tomato;
     box-shadow: 17px 17px lightgrey;
     border-radius: 10px;
+}
+
+tr:nth-child(odd){
+    background-color: #eef7ff;
+}
+
+table,td,th{
+    border:1px solid #427fef;
+    border-left: 0px;
+    border-right:0px;
+    border-collapse: collapse;
+  
 }
 
